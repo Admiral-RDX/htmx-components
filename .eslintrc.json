@@ -11,6 +11,10 @@
     },
     "plugins": ["@typescript-eslint"],
     "rules": {
-        "no-console": "off"
-    }
+        "no-console": "off",
+        "indent": ["error", 4],
+        "@typescript-eslint/indent": ["error", 4],
+        "semi": ["error", "always"]
+    },
+    "ignorePatterns": ["vite.config.ts"]
 }

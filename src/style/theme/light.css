@@ -1,0 +1,9 @@
+[data-theme='light'] {
+    /* TODO: Make this light theme */
+    --background-color: #e9e9ed;
+    --text-color: #1d1d1d;
+    --heading-color: #1d1d1d;
+
+    --primary-color: var(--blue-200);
+    --secondary-color: var(--purple-200);
+}

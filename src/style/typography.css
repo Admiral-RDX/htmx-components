@@ -1,0 +1,72 @@
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Geist', sans-serif;
+    color: var(--heading-color);
+}
+
+h1 {
+    font-size: var(--font-size-lg);
+    line-height: var(--line-height-lg);
+    font-weight: 800;
+    letter-spacing: var(--letter-spacing);
+}
+
+h2 {
+    padding-bottom: var(--spacing-sm);
+    border-bottom-width: 1px;
+    font-size: var(--font-size-md);
+    line-height: var(--line-height-md);
+    font-weight: 600;
+    letter-spacing: var(--letter-spacing);
+}
+
+h3 {
+    font-size: var(--font-size-sm);
+    line-height: 2rem;
+    font-weight: 600;
+    letter-spacing: var(--letter-spacing);
+}
+
+h4 {
+    font-size: var(--font-size-xs);
+    line-height: 1.75rem;
+    font-weight: 600;
+    letter-spacing: var(--letter-spacing);
+}
+
+p {
+    line-height: 1.75rem;
+}
+
+.blockquote {
+    padding-left: var(--spacing-lg);
+    margin-top: var(--spacing-lg);
+    border-left-width: 2px;
+    font-style: italic;
+}
+
+.lead {
+    font-size: var(--font-size-xs);
+    line-height: 1.75rem;
+}
+
+.large {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+}
+
+.muted {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: var(--text-color-muted);
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 3rem;
+        line-height: 1;
+    }
+}
