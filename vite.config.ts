@@ -7,5 +7,5 @@ export default defineConfig({
     },
     build: {
         outDir: 'build', // Output directory for production build if using Vite's build feature
-    }
+    },
 });

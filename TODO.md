@@ -1,0 +1,8 @@
+- [] Fix colors
+- [] Fix theme
+- [] Fix spacing
+- [] Fix create docs
+- [] Fix css imports for browser
+- [] Prepare args
+- [] Style them
+- [] Publish on CDN
