@@ -1,37 +1,17 @@
-<!doctype html>
-<html lang="en" data-theme="dark">
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Vite + TS</title>
-        <link rel="stylesheet" href="./src/style/fonts.css" />
-        <link rel="stylesheet" href="./src/style/base.css" />
-        <link rel="stylesheet" href="./src/style/typography.css" />
-        <link rel="stylesheet" href="./src/style/variables.css" />
-        <link rel="stylesheet" href="./src/style/theme/dark.css" />
-        <link rel="stylesheet" href="./src/style/theme/light.css" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTMX Components Demo</title>
     </head>
     <body>
-        <simple-button label="Submit"></simple-button>
-        <simple-card
-            title="Card Title"
-            content="This is a simple card."
-        ></simple-card>
-        <simple-input-text placeholder="Type your name"></simple-input-text>
+        <h1>HTMX Components Demo (Dev Mode)</h1>
 
-        <footer>
-            <button id="theme-toggle">Toggle Dark/Light Mode</button>
-        </footer>
+        <!-- Example of using your web component -->
+        <simple-input-text placeholder="Enter your name"></simple-input-text>
 
+        <!-- Vite will handle the imports during development -->
         <script type="module" src="/src/index.ts"></script>
-        <script>
-            const toggleButton = document.getElementById('theme-toggle');
-            toggleButton.addEventListener('click', () => {
-                const currentTheme =
-                    document.documentElement.getAttribute('data-theme');
-                const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-                document.documentElement.setAttribute('data-theme', newTheme);
-            });
-        </script>
     </body>
 </html>

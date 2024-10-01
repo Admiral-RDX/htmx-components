@@ -1,0 +1,1 @@
+simple-input-text::part(input){border:1px solid #ccc;border-radius:4px;padding:8px;width:100%}simple-input-text::part(input):focus{border-color:#4caf50;outline:none}simple-input-text{display:block;margin-bottom:16px}

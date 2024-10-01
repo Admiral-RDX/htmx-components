@@ -14,7 +14,9 @@
         "no-console": "off",
         "indent": ["error", 4],
         "@typescript-eslint/indent": ["error", 4],
-        "semi": ["error", "always"]
+        "semi": ["error", "always"],
+        "import/prefer-default-export": "off",
+        "import/extensions": ["error", "ignorePackages", { "ts": "always" }]
     },
     "ignorePatterns": ["vite.config.ts"]
 }

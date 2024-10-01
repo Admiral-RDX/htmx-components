@@ -1,0 +1,16 @@
+simple-input-text::part(input) {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+simple-input-text::part(input):focus {
+    border-color: #4caf50;
+    outline: none;
+}
+
+simple-input-text {
+    display: block;
+    margin-bottom: 16px;
+}
