@@ -4,7 +4,6 @@ import './styles/variables.css';
 import './styles/fonts.css';
 import './styles/theme/dark.css';
 import './styles/typography.css';
-import './styles/temp.css';
 
 export { default as InputField } from './components/input/base/input-field.ts';
 export { default as DateField } from './components/input/date/date-field.ts';

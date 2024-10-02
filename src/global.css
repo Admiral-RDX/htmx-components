@@ -28,8 +28,17 @@ textarea {
 
 body {
     margin: 0;
-    padding: 1rem;
+    padding: 3rem;
     color: var(--text-color);
     font-family: 'Geist', sans-serif;
-    background-color: var(--background-color);
+    background-color: var(--background);
+}
+
+/* Temp */
+.components-grid {
+    width: 100%;
+    height: 100%;
+    gap: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }

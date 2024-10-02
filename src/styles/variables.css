@@ -1,7 +1,9 @@
 :root {
+    --text-color: #ffffff;
+    --background: #121212;
     /* Layout and Spacing */
-    --spacing-xs: .25rem .5rem;
-    --spacing-sm: .5rem 1rem;
+    --spacing-xs: 0.25rem 0.5rem;
+    --spacing-sm: 0.5rem 1rem;
     --spacing-md: 1rem 1.5rem;
     --spacing-lg: 1.5rem 2rem;
     --spacing-xl: 2rem 2.5rem;

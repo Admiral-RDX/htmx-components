@@ -7,6 +7,25 @@
         <link rel="stylesheet" href="./src/global.css" />
     </head>
     <body>
+        <div class="components-grid">
+            <!-- INPUT - attr: type placeholder padding roundness -->
+            <input-field
+                type="text"
+                placeholder="Search ..."
+                padding="--spacing-sm"
+                roundness="--border-radius-md"
+            ></input-field>
+
+            <!-- INPUT DROPDOWN - attr: type placeholder padding roundness -->
+            <input-select
+                type="text"
+                placeholder="Select your age"
+                padding="--spacing-sm"
+                roundness="--border-radius-md"
+            ></input-select>
+        </div>
+
+        <!--
         <div class="text-container">
             <h1>H1</h1>
             <h2>H2</h2>
@@ -21,8 +40,6 @@
             <p class="muted">Lorem ipsum - muted</p>
         </div>
 
-        <div class="spacer"></div>
-
         <form-layout>
             <input-field></input-field>
             <date-field></date-field>
@@ -30,15 +47,11 @@
             <std-button></std-button>
         </form-layout>
 
-        <div class="spacer"></div>
-
         <std-nav>
             <std-link></std-link>
             <std-link></std-link>
             <std-link></std-link>
         </std-nav>
-
-        <div class="spacer"></div>
 
         <std-table>
             <table>
@@ -60,6 +73,7 @@
                 </tbody>
             </table>
         </std-table>
+        -->
 
         <script type="module" src="/src/index.ts"></script>
     </body>
