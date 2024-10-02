@@ -1,4 +1,15 @@
+body {
+    .spacer {
+        height: 2px;
+        width: 100%;
+        background: red;
+        margin: 1rem 0;
+    }
+}
+
 .temp-buttons {
     display: flex;
+    align-items: center;
     gap: 1rem;
 }
+

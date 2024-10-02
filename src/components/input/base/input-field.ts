@@ -1,4 +1,4 @@
-import './input-field.css';
+import style from './input-field-style';
 
 class InputField extends HTMLElement {
     constructor() {
@@ -10,6 +10,7 @@ class InputField extends HTMLElement {
         input.classList.add('input-field');
 
         shadow.appendChild(input);
+        shadow.appendChild(style);
     }
 }
 
